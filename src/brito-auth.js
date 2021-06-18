@@ -6,8 +6,4 @@ const login = () => {
   localStorage.setItem("token", "logged");
 };
 
-const isUserLogged = () => {
-  return !!localStorage.getItem("token");
-};
-
-export default { logout, login, isUserLogged };
+export default { logout, login };
